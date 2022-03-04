@@ -1,0 +1,33 @@
+.SearchParty{
+    background-color: #fff;
+    color: #222;
+}
+
+.SearchParty .search-container{
+    position: relative;
+    width: 100%;
+}
+
+.SearchParty .search-container input:hover{
+    background-color: #f1f1f1;
+}
+
+.SearchParty .search-container span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 14px;
+}
+
+.SearchParty .search-container input{
+    background: #fff;
+    width: 100%;
+    border: none;
+    padding: 20px 14px 20px 50px;
+    border-bottom: 1px solid #ccc;
+    color: #222;
+}
+
+.SearchParty .search-container input:active{
+    border: none;
+}

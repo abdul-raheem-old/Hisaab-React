@@ -1,0 +1,106 @@
+.UpdateCash{
+    position: fixed;
+    top: 74px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 74px);
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+.UpdateCash form{
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.UpdateCash form input, .UpdateCash form select{
+    width: 100%;
+    border: none;
+    padding: 12px 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 14px;
+}
+
+.UpdateCash form input[type="submit"]{
+    background: #000;
+    color: #fff;
+}
+
+.UpdateCash form input[type="submit"]:hover{
+    background-color: #222;
+}
+
+
+.UpdateCash form input[type="button"]:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+.UpdateCash form h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.UpdateCash form p{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 14px;
+    text-transform: capitalize;
+    background: #fff;
+}
+
+.actionBtns{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionBtns button{
+    background-color: #000;
+    color: #fff;
+    padding: 12px 25px;
+    border: 0 1px solid #ccc;
+    width: 50%;
+}
+
+.actionBtns button:hover{
+    background-color: #222;
+}
+
+.actionBtns button span:first-child{
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+
+.actionBtns button span:last-child{
+    font-size: 1.0rem;
+}
+
+.UpdateCash .updateBtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 786px){
+    .UpdateCash{
+        position: fixed;
+        top: 74px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 74px);
+        background: #f1f1f1;
+        display: none;
+        align-items: flex-start;
+        justify-content: center;
+        z-index: 99;
+    }
+}

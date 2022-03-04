@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #222;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+header span{
+    color: rgb(250, 195, 195);
+    padding: 26px;
+}
+
+header span:hover{
+    color: red;
+}
+
+header code{
+    padding: 26px;
+}
+
+header code:hover{
+    color: #000;
+}

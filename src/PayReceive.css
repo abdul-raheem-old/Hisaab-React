@@ -1,0 +1,58 @@
+.PayReceive{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.PayReceive .box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7.4px 14px;
+}
+
+.PayReceive .box span{
+    font-size: 1rem;
+    display: block;
+}
+
+.PayReceive .box span:first-child{
+    padding: 5px;
+}
+
+.PayReceive .box span:last-child{
+    padding: 5px;
+}
+
+.PayReceive .box span:last-child span:first-child{
+    font-weight: 700;
+}
+
+.PayReceive .box span:last-child span:last-child{
+    font-weight: normal;
+}
+
+.toReceive{
+    background-color: rgb(195, 250, 195);
+    color: green;
+    border-radius: 10px;
+}
+
+.toReceive:hover{
+    background-color: rgb(165, 250, 165);
+}
+
+.toPay{
+    background-color: rgb(250, 195, 195);
+    color: red;
+    border-radius: 10px;
+}
+
+.toPay:hover{
+    background-color: rgb(250, 165, 165);
+}
+
+.PayReceive .box-container{
+    width: 47%;
+}

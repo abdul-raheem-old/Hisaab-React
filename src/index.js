@@ -1,16 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Header from './Header'
+import AddParty from './AddParty'
+import PayReceive from './PayReceive'
+import PartyList from './PartyList'
+import SearchParty from './SearchParty'
+import './index.css'
 
-function SayHello(props){
+function Root(){
+
   return(
-    <h1>Bonjour. Je m'appelle {props.name}</h1>
+    <>
+      <Header />
+      <PayReceive />
+      <AddParty />
+      <SearchParty />
+      <PartyList />
+    </>
   )
 }
 
-ReactDOM.render(
-  <React.StrictMode>
-    <SayHello name="Abdul Raheem" />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<Root />, document.getElementById('root'))
